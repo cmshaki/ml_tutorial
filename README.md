@@ -2,34 +2,87 @@
 Using Jupyter notebooks and various datasets we are able to see through the whole machine learning to deep learning landscape. The notebooks are arranged in order.
 
 ## Prerequisites
-Ensure you have installed python first and foremost. Next ensure you have pip installed jupyter, pandas, numpy and matplotlib.
+Ensure you have installed python first and foremost. You can install python from [here](https://www.python.org/downloads/). 
+
+### Virtual Environment
+** Optionally you can create a virtual environment for your machine learning projects. If not skip this step and head over to install all the packages [here](#install-packages).
 
 ```
-pip install jupyterlab pandas numpy matplotlib
+python -m venv ml
+```
+After creating the virtual environment you'll need to activate the virtual environment with the command below depending on your terminal:
+```
+~/ml/Scripts/activate
+```
+or
+```
+~/ml/Scripts/activate.bat
+```
+or
+```
+~/ml/Scripts/Activate.ps1
+```
+
+### Install Packages
+
+Install all the packages needed:
+
+```
+pip install jupyterlab pandas numpy matplotlib tensorflow apyori xgboost
 ```
 
 ## Notebooks
 Here are all the notebooks available here:
-1. Data Preprocessing
-2. Simple Linear Regression
-3. Multiple Linear Regression
-4. Polynomial Regression
-5. Support Vector Regression
-6. Decision Tree Regression
-7. Random Forest Regression
-8. Logistic Regression
-9. K Nearest Neighbour
-10. SVM
-11. Kernel SVM
-12. Naives Bayes
-13. Decision Tree Classification
-14. Random Forest Classification
-15. K Means Clustering
-16. Hierarchical Clustering
-17. Apriori
-18. Eclat
-19. Upper Confidence Bound
-20. Thompson Sampling
-21. Natural Language Processing
-22. Artificial Neural Network
-23. Convolutional Neural Network
+
+### Data Preprocessing
+   - Data Preprocessing
+
+### Regression
+   - Simple Linear Regression
+   - Multiple Linear Regression
+   - Polynomial Regression
+   - Support Vector Regression
+   - Decision Tree Regression
+   - Random Forest Regression
+   - Logistic Regression
+
+### Classification
+   - K Nearest Neighbour
+   - SVM
+   - Kernel SVM
+   - Naives Bayes
+   - Decision Tree Classification
+   - Random Forest Classification
+
+### Clustering
+   - K Means Clustering
+   - Hierarchical Clustering
+
+### Association Rule Learning
+   - Apriori
+   - Eclat
+
+### Reinforcement Learning
+   - Upper Confidence Bound
+   - Thompson Sampling
+
+### Natural Language Processing
+   - Natural Language Processing
+
+### Deep Learning
+   - Artificial Neural Network
+   - Convolutional Neural Network
+
+### Dimensionality Reduction
+   - Principal Component Analysis
+   - Linear Disciminant Analysis
+   - Kernel PCA
+
+### Model Selection and Boosting
+   - Model Selection
+     - k-Fold Cross Validation
+     - Grid Search
+   - Boosting
+     - XG Boost
+
+Thanks for checking this out, have fun with this code, happy coding 😎
